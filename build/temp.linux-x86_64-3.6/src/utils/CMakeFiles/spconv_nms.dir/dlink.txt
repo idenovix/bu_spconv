@@ -1,0 +1,1 @@
+/usr/local/cuda/bin/nvcc  "--expt-relaxed-constexpr" -O3 -DNDEBUG -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/spconv_nms.dir/nms.cu.o -o CMakeFiles/spconv_nms.dir/cmake_device_link.o  
